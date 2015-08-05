@@ -1,0 +1,7 @@
+Behavior: It handles ties
+Input: Rock and rock
+Output: Tie
+
+Behavior: It determines a winner if it is not a tie
+Input: Rock and scissors
+Output: Rock is the winner
