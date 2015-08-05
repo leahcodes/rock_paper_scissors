@@ -1,16 +1,23 @@
-<h1>Enter your move below to play Rock, Paper, Scissors!</h1>
-<h2>For Rock, type "r"</h2>
-<h2>For Paper, type "p"</h2>
-<h2>For Scissors, type "s"</h2>
+<h3>Enter your move below to play Rock, Paper, Scissors!</h3>
+  <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Instructions</h3>
+  </div>
+  <div class="panel-body">
+    <p>For Rock, type "r"</p>
+    <p>For Paper, type "p"</p>
+    <p>For Scissors, type "s"</p>
+  </div>
+</div>
 
 <form action='/result'>
   <div class ="form-group">
     <label for="player1">Player 1</label>
-    <input id="player1" name="player1" class ="form-control" type="text">
+    <input id="player1" name="player1" class ="form-control" type="password">
   </div>
   <div class ="form-group">
     <label for="player2">Player 2</label>
-    <input id="player2" name="player2" class="form-control" type="text">
+    <input id="player2" name="player2" class="form-control" type="password">
   </div>
-  <button type="submit" class="btn">Play!</button>
+  <button type="submit" class="btn-primary">Play!</button>
 </form>
