@@ -1,6 +1,6 @@
 # _Rock Paper Scissors_
 
-##### _Play against your friend, or enemy., {Date of current version}_
+##### _Play against your friend, or enemy., 8/5/15_
 
 #### By _**Leah Klamkin and Clayton Easterbrooks**_
 
